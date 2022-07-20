@@ -17,5 +17,12 @@ Then install the necessery node_modules and
 - Basic template deleted from repository.
 - 5 Screens created.
 - Navigation Stack folder created and integrated.
-- Images and GIF's added
+- Images and GIFs added.
 - bottomTabNavigator updated.
+
+# 20.07.2022 ( Derewa App v0.2 )
+
+- Native-Base module imported.
+- Images and GIFs updated.
+- Services screen updated with native-base modals and Boxes.
+- Services page boxes responsivity updated.
