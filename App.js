@@ -5,8 +5,8 @@ import Ionicons from "@expo/vector-icons/Ionicons";
 import HomeStack from "./navigation/HomeNavi";
 import ProfileStack from "./navigation/ProfileNavi";
 import HelpStack from "./navigation/HelpNavi";
-import LocaitonStack from "./navigation/LocationNavi";
 import RecoveryStack from "./navigation/RecoveryNavi";
+import LocationStack from './navigation/LocationNavi';
 
 
 const Tabs = createBottomTabNavigator();
@@ -39,7 +39,7 @@ const App = () => {
       tabBarLabel : "Get Help Now",
     }}/>
 
-      <Tabs.Screen name="Recovery" component={RecoveryStack} options={{tabBarIcon: (props) => <Ionicons name='information-circle' {...props}/>,
+      <Tabs.Screen name="RecoveryStack" component={RecoveryStack} options={{tabBarIcon: (props) => <Ionicons name='information-circle' {...props}/>,
       headerShown:false,
       tabBarLabel: "Recovery Tips"
     }}/>
@@ -48,7 +48,7 @@ const App = () => {
         tabBarIcon: (props) => <Ionicons name='cog' {...props}/>,
         tabBarLabel: "Services"
       }}/>
-      <Tabs.Screen name="Locations" component={LocaitonStack} options={{tabBarIcon: (props) => <Ionicons name='location' {...props}/>,
+      <Tabs.Screen name="Locations" component={LocationStack} options={{tabBarIcon: (props) => <Ionicons name='location' {...props}/>,
       headerShown:false,
       tabBarLabel: "Locations"
     }}/>

@@ -6,7 +6,7 @@
   
   const Stack = createNativeStackNavigator();
   
-  const LocaitonStack = () => {
+  const LocationStack = () => {
     
     return(
       <Stack.Navigator screenOptions={{headerTitleAlign: 'center',contentStyle:{
@@ -25,4 +25,4 @@
     );
   };
 
-export default LocaitonStack;
+export default LocationStack;
