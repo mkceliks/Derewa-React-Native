@@ -26,3 +26,10 @@ Then install the necessery node_modules and
 - Images and GIFs updated.
 - Services screen updated with native-base modals and Boxes.
 - Services page boxes responsivity updated.
+
+
+# 26.07.2022 ( Derewa App v0.3 )
+
+- Some fixes about naming of Location.
+- Images added
+- 2 Box added and updated in the services screen.
