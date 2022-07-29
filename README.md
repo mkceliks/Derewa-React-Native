@@ -33,3 +33,10 @@ Then install the necessery node_modules and
 - Some fixes about naming of Location.
 - Images added
 - 2 Box added and updated in the services screen.
+
+
+# 28.07.2022 ( Derewa App v0.4 )
+
+- brand, schimmel and hausratschaden screens added to the profileScreen
+- images of brand, schimmel and hausratschaden categories added.
+- 3 box model created
