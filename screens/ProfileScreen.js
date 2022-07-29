@@ -2,7 +2,6 @@ import  React,{ useState } from 'react';
 import { StyleSheet, Text, View,SafeAreaView,ScrollView,StatusBar,ImageBackground} from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Box, NativeBaseProvider,Modal,Center,Button,FormControl,Input,Image } from 'native-base';
-import Ionicons from "@expo/vector-icons/Ionicons";
 
 
 
@@ -52,15 +51,10 @@ const Profile = () => {
 
   const [showModal7, setShowModal7] = useState(false);
   const [showImages_7_1, setShowImages_7_1] = useState(false);
-  const [showImages_7_2, setShowImages_7_2] = useState(false);
-  const [showImages_7_3, setShowImages_7_3] = useState(false);
-  const [showImages_7_4, setShowImages_7_4] = useState(false);
 
   const [showModal8, setShowModal8] = useState(false);
   const [showImages_8_1, setShowImages_8_1] = useState(false);
   const [showImages_8_2, setShowImages_8_2] = useState(false);
-  const [showImages_8_3, setShowImages_8_3] = useState(false);
-  const [showImages_8_4, setShowImages_8_4] = useState(false);
 
   const [showModal9, setShowModal9] = useState(false);
   const [showImages_9_1, setShowImages_9_1] = useState(false);
@@ -71,29 +65,47 @@ const Profile = () => {
   const [showModal10, setShowModal10] = useState(false);
   const [showImages_10_1, setShowImages_10_1] = useState(false);
   const [showImages_10_2, setShowImages_10_2] = useState(false);
-  const [showImages_10_3, setShowImages_10_3] = useState(false);
-  const [showImages_10_4, setShowImages_10_4] = useState(false);
 
   const [showModal11, setShowModal11] = useState(false);
   const [showImages_11_1, setShowImages_11_1] = useState(false);
-  const [showImages_11_2, setShowImages_11_2] = useState(false);
-  const [showImages_11_3, setShowImages_11_3] = useState(false);
-  const [showImages_11_4, setShowImages_11_4] = useState(false);
 
   const [showModal12, setShowModal12] = useState(false);
   const [showImages_12_1, setShowImages_12_1] = useState(false);
   const [showImages_12_2, setShowImages_12_2] = useState(false);
   const [showImages_12_3, setShowImages_12_3] = useState(false);
   const [showImages_12_4, setShowImages_12_4] = useState(false);
+  const [showImages_12_5, setShowImages_12_5] = useState(false);
+  const [showImages_12_6, setShowImages_12_6] = useState(false);
+  const [showImages_12_7, setShowImages_12_7] = useState(false);
+  const [showImages_12_8, setShowImages_12_8] = useState(false);
+
 
   const [showModal13, setShowModal13] = useState(false);
   const [showImages_13_1, setShowImages_13_1] = useState(false);
   const [showImages_13_2, setShowImages_13_2] = useState(false);
   const [showImages_13_3, setShowImages_13_3] = useState(false);
   const [showImages_13_4, setShowImages_13_4] = useState(false);
+  const [showImages_13_5, setShowImages_13_5] = useState(false);
+  const [showImages_13_6, setShowImages_13_6] = useState(false);
+  const [showImages_13_7, setShowImages_13_7] = useState(false);
+  const [showImages_13_8, setShowImages_13_8] = useState(false);
+  const [showImages_13_9, setShowImages_13_9] = useState(false);
+  const [showImages_13_10, setShowImages_13_10] = useState(false);
+  const [showImages_13_11, setShowImages_13_11] = useState(false);
+  const [showImages_13_12, setShowImages_13_12] = useState(false);
+  const [showImages_13_13, setShowImages_13_13] = useState(false);
+  const [showImages_13_14, setShowImages_13_14] = useState(false);
+  const [showImages_13_15, setShowImages_13_15] = useState(false);
+  const [showImages_13_16, setShowImages_13_16] = useState(false);
+
+  const [showModal14, setShowModal14] = useState(false);
+  const [showImages_14_1, setShowImages_14_1] = useState(false);
 
     return <View style={{paddingTop: StatusBar.currentHeight,flexDirection:'row'}}>
         <ScrollView style={styles.scrollView}>
+        <Text style={{textAlign:"center",fontWeight:"bold",fontSize:20}}>Mit Derewa wie vorher!
+
+Unsere Dienstleistungen im Überblick</Text>
         <View style={styles.container}>
         <View style={styles.box}>
         <Box style={styles.inner} bg={{
@@ -112,7 +124,7 @@ const Profile = () => {
           <Text style={{width:150,textAlign:"center",color:"white",fontWeight:"bold",fontSize:20}}>Graffittientfernung</Text>
               <Center>
       <Button style={{width:150,backgroundColor:"rgba(255,0,0,0.0)"}} onPress={() => setShowModal(true)}>
-        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Click here for more info</Text>
+        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Weitere Infos</Text>
         </Button>
       <Modal isOpen={showModal} onClose={() => setShowModal(false)}>
         <Modal.Content maxWidth="400px">
@@ -273,7 +285,7 @@ chemische Verfahren unter Berücksichtigung der bestehenden Umweltschutzgesetze<
           <Text style={{width:150,textAlign:"center",color:"white",fontWeight:"bold",fontSize:20}}>Strahlarbeiten</Text>
               <Center>
       <Button style={{width:150,backgroundColor:"rgba(255,0,0,0.0)"}} onPress={() => setShowModal2(true)}>
-        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Click here for more info</Text>
+        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Weitere Infos</Text>
         </Button>
       <Modal isOpen={showModal2} onClose={() => setShowModal2(false)}>
         <Modal.Content maxWidth="400px">
@@ -473,7 +485,7 @@ Arbeits-, Sicherungs- und Schutzmaßnahmen werden bei allen Verfahren umgesetzt.
           <Text style={{width:150,textAlign:"center",color:"white",fontWeight:"bold",fontSize:20}}>Leckageortung</Text>
               <Center>
       <Button style={{width:150,backgroundColor:"rgba(255,0,0,0.0)"}} onPress={() => setShowModal3(true)}>
-        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Click here for more info</Text>
+        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Weitere Infos</Text>
         </Button>
       <Modal isOpen={showModal3} onClose={() => setShowModal3(false)}>
         <Modal.Content maxWidth="400px">
@@ -605,7 +617,7 @@ Wir verwenden vielfältige Messverfahren, um eine Leckage zu orten. Durch unser 
           <Text style={{width:150,textAlign:"center",color:"white",fontWeight:"bold",fontSize:20}}>Sanierung von Inventar und Hausrat</Text>
               <Center>
       <Button style={{width:150,backgroundColor:"rgba(255,0,0,0.0)"}} onPress={() => setShowModal4(true)}>
-        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Click here for more info</Text>
+        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Weitere Infos</Text>
         </Button>
       <Modal isOpen={showModal4} onClose={() => setShowModal4(false)}>
         <Modal.Content maxWidth="400px">
@@ -878,10 +890,10 @@ Wir sind dafür da, dass Sie am Ende Ihre Gegenstände wie vor dem Schadenfall a
             textAlign: 'center'
           }}>
 
-          <Text style={{width:150,textAlign:"center",color:"white",fontWeight:"bold",fontSize:20}}>Schimmelschadensanierung</Text>
+          <Text style={{width:150,textAlign:"center",color:"white",fontWeight:"bold",fontSize:20,paddingLeft:5,paddingRight:5}}>Schimmelschadensanierung</Text>
               <Center>
       <Button style={{width:150,backgroundColor:"rgba(255,0,0,0.0)"}} onPress={() => setShowModal5(true)}>
-        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Click here for more info</Text>
+        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Weitere Infos</Text>
         </Button>
       <Modal isOpen={showModal5} onClose={() => setShowModal5(false)}>
         <Modal.Content maxWidth="400px">
@@ -1133,7 +1145,7 @@ Dem Geschädigten steht jederzeit ein fachkundiger Ansprechpartner zur Verfügun
           <Text style={{width:150,textAlign:"center",color:"white",fontWeight:"bold",fontSize:20,paddingLeft:10,paddingRight:10}}>Brandschadensanierung</Text>
               <Center>
       <Button style={{width:150,backgroundColor:"rgba(255,0,0,0.0)"}} onPress={() => setShowModal6(true)}>
-        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Click here for more info</Text>
+        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Weitere Infos</Text>
         </Button>
       <Modal isOpen={showModal6} onClose={() => setShowModal6(false)}>
         <Modal.Content maxWidth="400px">
@@ -1273,7 +1285,7 @@ Profitieren Sie von unseren digitalen Möglichkeiten und der Kompetenz unserer F
 <Modal isOpen={showImages_6_1} onClose={() => setShowImages_6_1(false)}>
         <Modal.Content maxWidth="650px">
           <Modal.CloseButton />
-          <Modal.Header>Schimmelschadensanierung</Modal.Header>
+          <Modal.Header>Brandschadensanierung</Modal.Header>
           <Modal.Body>
 
           <Image  size={250} alt="foto1"
@@ -1296,7 +1308,7 @@ Profitieren Sie von unseren digitalen Möglichkeiten und der Kompetenz unserer F
       <Modal isOpen={showImages_6_2} onClose={() => setShowImages_6_2(false)}>
         <Modal.Content maxWidth="650px">
           <Modal.CloseButton />
-          <Modal.Header>Schimmelschadensanierung</Modal.Header>
+          <Modal.Header>Brandschadensanierung</Modal.Header>
           <Modal.Body>
 
           <Image  size={250} alt="foto1"
@@ -1333,7 +1345,7 @@ Profitieren Sie von unseren digitalen Möglichkeiten und der Kompetenz unserer F
       <Modal isOpen={showImages_6_3} onClose={() => setShowImages_6_3(false)}>
         <Modal.Content maxWidth="650px">
           <Modal.CloseButton />
-          <Modal.Header>Schimmelschadensanierung</Modal.Header>
+          <Modal.Header>Brandschadensanierung</Modal.Header>
           <Modal.Body>
 
           <Image  size={250} alt="foto1"
@@ -1357,7 +1369,7 @@ Profitieren Sie von unseren digitalen Möglichkeiten und der Kompetenz unserer F
       <Modal isOpen={showImages_6_4} onClose={() => setShowImages_6_4(false)}>
         <Modal.Content maxWidth="650px">
           <Modal.CloseButton />
-          <Modal.Header>Schimmelschadensanierung</Modal.Header>
+          <Modal.Header>Brandschadensanierung</Modal.Header>
           <Modal.Body>
 
           <Image  size={250} alt="foto1"
@@ -1381,7 +1393,7 @@ Profitieren Sie von unseren digitalen Möglichkeiten und der Kompetenz unserer F
       <Modal isOpen={showImages_6_5} onClose={() => setShowImages_6_5(false)}>
         <Modal.Content maxWidth="650px">
           <Modal.CloseButton />
-          <Modal.Header>Schimmelschadensanierung</Modal.Header>
+          <Modal.Header>Brandschadensanierung</Modal.Header>
           <Modal.Body>
 
           <Image  size={250} alt="foto1"
@@ -1405,7 +1417,7 @@ Profitieren Sie von unseren digitalen Möglichkeiten und der Kompetenz unserer F
       <Modal isOpen={showImages_6_6} onClose={() => setShowImages_6_6(false)}>
         <Modal.Content maxWidth="650px">
           <Modal.CloseButton />
-          <Modal.Header>Schimmelschadensanierung</Modal.Header>
+          <Modal.Header>Brandschadensanierung</Modal.Header>
           <Modal.Body>
 
           <Image  size={250} alt="foto1"
@@ -1428,7 +1440,7 @@ Profitieren Sie von unseren digitalen Möglichkeiten und der Kompetenz unserer F
       <Modal isOpen={showImages_6_7} onClose={() => setShowImages_6_7(false)}>
         <Modal.Content maxWidth="650px">
           <Modal.CloseButton />
-          <Modal.Header>Schimmelschadensanierung</Modal.Header>
+          <Modal.Header>Brandschadensanierung</Modal.Header>
           <Modal.Body>
 
           <Image  size={250} alt="foto1"
@@ -1451,7 +1463,7 @@ Profitieren Sie von unseren digitalen Möglichkeiten und der Kompetenz unserer F
       <Modal isOpen={showImages_6_8} onClose={() => setShowImages_6_8(false)}>
         <Modal.Content maxWidth="650px">
           <Modal.CloseButton />
-          <Modal.Header>Schimmelschadensanierung</Modal.Header>
+          <Modal.Header>Brandschadensanierung</Modal.Header>
           <Modal.Body>
 
           <Image  size={250} alt="foto1"
@@ -1474,7 +1486,7 @@ Profitieren Sie von unseren digitalen Möglichkeiten und der Kompetenz unserer F
       <Modal isOpen={showImages_6_9} onClose={() => setShowImages_6_9(false)}>
         <Modal.Content maxWidth="650px">
           <Modal.CloseButton />
-          <Modal.Header>Schimmelschadensanierung</Modal.Header>
+          <Modal.Header>Brandschadensanierung</Modal.Header>
           <Modal.Body>
 
           <Image  size={250} alt="foto1"
@@ -1497,7 +1509,7 @@ Profitieren Sie von unseren digitalen Möglichkeiten und der Kompetenz unserer F
       <Modal isOpen={showImages_6_10} onClose={() => setShowImages_6_10(false)}>
         <Modal.Content maxWidth="650px">
           <Modal.CloseButton />
-          <Modal.Header>Schimmelschadensanierung</Modal.Header>
+          <Modal.Header>Brandschadensanierung</Modal.Header>
           <Modal.Body>
 
           <Image  size={250} alt="foto1"
@@ -1520,7 +1532,7 @@ Profitieren Sie von unseren digitalen Möglichkeiten und der Kompetenz unserer F
      <Modal isOpen={showImages_6_11} onClose={() => setShowImages_6_11(false)}>
         <Modal.Content maxWidth="650px">
           <Modal.CloseButton />
-          <Modal.Header>Schimmelschadensanierung</Modal.Header>
+          <Modal.Header>Brandschadensanierung</Modal.Header>
           <Modal.Body>
 
           <Image  size={250} alt="foto1"
@@ -1566,7 +1578,6 @@ Profitieren Sie von unseren digitalen Möglichkeiten und der Kompetenz unserer F
 
 
 
-            
             <View style={styles.box}>
         <Box style={styles.inner} bg={{
             linearGradient: {
@@ -1574,15 +1585,116 @@ Profitieren Sie von unseren digitalen Möglichkeiten und der Kompetenz unserer F
               start: [0.1],
               end: [1, 0],
             }
-          }} p="12"  _text={{
+          }} p="12" _text={{
             fontSize: 'md',
             fontWeight: 'bold',
             color: 'warmGray.50',
             textAlign: 'center'
           }}>
-              This is a Box with Linear Gradient
+
+          <Text style={{width:150,textAlign:"center",color:"white",fontWeight:"bold",fontSize:20}}>Aktensanierung</Text>
+              <Center>
+      <Button style={{width:150,backgroundColor:"rgba(255,0,0,0.0)"}} onPress={() => setShowModal7(true)}>
+        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Weitere Infos</Text>
+        </Button>
+      <Modal isOpen={showModal7} onClose={() => setShowModal7(false)}>
+        <Modal.Content maxWidth="400px">
+          <Modal.CloseButton />
+          <Modal.Header>Aktensanierung</Modal.Header>
+          <Modal.Body>
+            <Text>
+ <Text style={{fontWeight:"bold"}}>In unserer Abteilung ‚Aktensanierung‘ legen wir einen großen Wert auf Rettungs- und Sicherungsmaßnahmen von relevanten und wichtigen Informationen. Wir wissen genau, dass Sie wichtige Unterlagen haben und diese erhalten haben möchten. Dafür müssen geeignete Verfahren in Betracht gezogen werden. Unsere Verfahren können geschädigte Akten nach einem Wasser- oder Brandschaden retten und/oder aufbereiten.
+
+Nicht sanierungsfähige Akten werden trotzdem digital abgelegt, um einen Zugriff auf den Inhalt zu gewähren.
+
+Akten, die einen Wasserschaden erlitten haben, werden schockgefroren und gefriergetrocknet, um weitere Schäden zu vermeiden.</Text></Text>
+{/* IMAGE --------->>>>    1 */}
+<Text style={{textAlign:"center",fontWeight:"bold",fontSize:22}}>{"\n"}~{"\n"}Galerie</Text>
+<Text>{"\n"}{"\n"}*Note : Touch the photos to zoom in.</Text>
+<Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_7_1(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/akten-1.png')}
+          resizeMode='contain'
+        />
+        </Button>
+
+
+      <Modal isOpen={showImages_7_1} onClose={() => setShowImages_7_1(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Aktensanierung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/akten-1.png')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_7_1(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+          </Modal.Body>
+          <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowModal7(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+        </Modal.Content>
+      </Modal>
+      {/* IMAGE --------->>>>    1 */}
+    </Center>
             </Box>
             </View>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <View style={styles.box}>
         <Box style={styles.inner} bg={{
             linearGradient: {
@@ -1590,15 +1702,154 @@ Profitieren Sie von unseren digitalen Möglichkeiten und der Kompetenz unserer F
               start: [0.1],
               end: [1, 0],
             }
-          }} p="12"  _text={{
+          }} p="12" _text={{
             fontSize: 'md',
             fontWeight: 'bold',
             color: 'warmGray.50',
             textAlign: 'center'
           }}>
-              This is a Box with Linear Gradient
+
+          <Text style={{textAlign:"center",width:150,color:"white",fontWeight:"bold",fontSize:20,paddingLeft:5,paddingRight:5}}>Entrümpelung und Entkernungsarbeiten</Text>
+              <Center>
+      <Button style={{width:150,backgroundColor:"rgba(255,0,0,0.0)"}} onPress={() => setShowModal8(true)}>
+        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Weitere Infos</Text>
+        </Button>
+      <Modal isOpen={showModal8} onClose={() => setShowModal8(false)}>
+        <Modal.Content maxWidth="400px">
+          <Modal.CloseButton />
+          <Modal.Header>Entrümpelung und Entkernungsarbeiten</Modal.Header>
+          <Modal.Body>
+            <Text>
+ <Text style={{fontWeight:"bold"}}>Sie möchten umziehen oder einen kompletten Haushalt auflösen?
+
+Dann sind Sie bei uns richtig!
+
+Wir sind Ihre Entrümpelungsfirma aus Ratingen und bieten jegliche Unterstützung bei Haushaltsauflösungen und Entrümpelung aller Art.
+
+Wir übernehmen die Räumung und Entsorgung alle Hausratgegenstände aus allen Räumen.
+
+Bei Bedarf werden Abbrucharbeiten bis auf Mauerwerk vor der Sanierung vorgenommen.
+
+Zudem demontieren wir alle technischen Gebäudeausrüstung, wie Türen, Fenster, Heizkörper etc., und tätigen die Entsorgung dieser auf Wunsch. Unter Berücksichtigung aller Schutzmaßnahmen entfernen wir bei Bedarf tragende Bauteile in Absprache mit Statikern.</Text></Text>
+{/* IMAGE --------->>>>    1 */}
+<Text style={{textAlign:"center",fontWeight:"bold",fontSize:22}}>{"\n"}~{"\n"}Galerie</Text>
+<Text>{"\n"}{"\n"}*Note : Touch the photos to zoom in.</Text>
+<Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_8_1(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/entruempelung-1.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_8_2(true)}>
+<Image
+          size={150}
+          alt="foto1"
+          source={require('../assets/entruempelung-2.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+<Modal isOpen={showImages_8_1} onClose={() => setShowImages_8_1(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Entrümpelung und Entkernungsarbeiten</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/entruempelung-1.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_8_1(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_8_2} onClose={() => setShowImages_8_2(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Entrümpelung und Entkernungsarbeiten</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/entruempelung-2.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_8_2(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+          </Modal.Body>
+          <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowModal8(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+        </Modal.Content>
+      </Modal>
+      {/* IMAGE --------->>>>    1 */}
+    </Center>
             </Box>
             </View>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <View style={styles.box}>
         <Box style={styles.inner} bg={{
             linearGradient: {
@@ -1606,15 +1857,195 @@ Profitieren Sie von unseren digitalen Möglichkeiten und der Kompetenz unserer F
               start: [0.1],
               end: [1, 0],
             }
-          }} p="12"  _text={{
+          }} p="12" _text={{
             fontSize: 'md',
             fontWeight: 'bold',
             color: 'warmGray.50',
             textAlign: 'center'
           }}>
-              This is a Box with Linear Gradient
+
+          <Text style={{width:150,textAlign:"center",color:"white",fontWeight:"bold",fontSize:20,paddingLeft:7,paddingRight:7}}>Sturmschadenbeseitigung</Text>
+              <Center>
+      <Button style={{width:150,backgroundColor:"rgba(255,0,0,0.0)"}} onPress={() => setShowModal9(true)}>
+        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Weitere Infos</Text>
+        </Button>
+      <Modal isOpen={showModal9} onClose={() => setShowModal9(false)}>
+        <Modal.Content maxWidth="400px">
+          <Modal.CloseButton />
+          <Modal.Header>Sturmschadenbeseitigung</Modal.Header>
+          <Modal.Body>
+            <Text>
+ <Text style={{fontWeight:"bold"}}>Größere Sturmschäden haben uns in Deutschland die letzten Jahre getroffen. Bei solchen Naturgewalten ist der Mensch machtlos. Bei solchen Stürmen können Äste sogar ganze Bäume abbrechen, die wiederum große Schäden an Häusern und Gebäuden anrichten. Wir helfen Ihnen mit geeigneten Maßnahmen (Aufräumarbeiten, Baumschnitt, Abbruch und Entsorgung von zerstörten Bauteilen) bei der Beseitigung dieser Schäden.</Text></Text>
+{/* IMAGE --------->>>>    1 */}
+<Text style={{textAlign:"center",fontWeight:"bold",fontSize:22}}>{"\n"}~{"\n"}Galerie</Text>
+<Text>{"\n"}{"\n"}*Note : Touch the photos to zoom in.</Text>
+<Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_9_1(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/sturm-1.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_9_2(true)}>
+<Image
+          size={150}
+          alt="foto1"
+          source={require('../assets/sturm-2.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_9_3(true)}>
+<Image
+          size={150}
+          alt="foto1"
+          source={require('../assets/sturm-3.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_9_4(true)}>
+<Image
+          size={150}
+          alt="foto1"
+          source={require('../assets/sturm-4.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+<Modal isOpen={showImages_9_1} onClose={() => setShowImages_9_1(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Sturmschadenbeseitigung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/sturm-1.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_9_1(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_9_2} onClose={() => setShowImages_9_2(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Sturmschadenbeseitigung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/sturm-2.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_9_2(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_9_3} onClose={() => setShowImages_9_3(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Sturmschadenbeseitigung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/sturm-3.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_9_3(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_9_4} onClose={() => setShowImages_9_4(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Sturmschadenbeseitigung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/sturm-4.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_9_4(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowModal9(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+        </Modal.Content>
+      </Modal>
+      {/* IMAGE --------->>>>    1 */}
+    </Center>
             </Box>
             </View>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <View style={styles.box}>
         <Box style={styles.inner} bg={{
             linearGradient: {
@@ -1622,15 +2053,1235 @@ Profitieren Sie von unseren digitalen Möglichkeiten und der Kompetenz unserer F
               start: [0.1],
               end: [1, 0],
             }
-          }} p="12"  _text={{
+          }} p="12" _text={{
             fontSize: 'md',
             fontWeight: 'bold',
             color: 'warmGray.50',
             textAlign: 'center'
           }}>
-              This is a Box with Linear Gradient
+
+          <Text style={{width:150,textAlign:"center",color:"white",fontWeight:"bold",fontSize:20,paddingLeft:5,paddingRight:5}}>Geruchsneutralisationen</Text>
+              <Center>
+      <Button style={{width:150,backgroundColor:"rgba(255,0,0,0.0)"}} onPress={() => setShowModal10(true)}>
+        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Weitere Infos</Text>
+        </Button>
+      <Modal isOpen={showModal10} onClose={() => setShowModal10(false)}>
+        <Modal.Content maxWidth="400px">
+          <Modal.CloseButton />
+          <Modal.Header>Geruchsneutralisationen</Modal.Header>
+          <Modal.Body>
+            <Text>
+ <Text style={{fontWeight:"bold"}}></Text></Text>
+{/* IMAGE --------->>>>    1 */}
+<Text style={{textAlign:"center",fontWeight:"bold",fontSize:22}}>{"\n"}~{"\n"}Galerie</Text>
+<Text>{"\n"}{"\n"}*Note : Touch the photos to zoom in.</Text>
+<Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_10_1(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/geruch-1.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_10_2(true)}>
+<Image
+          size={150}
+          alt="foto1"
+          source={require('../assets/geruch-2.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+<Modal isOpen={showImages_10_1} onClose={() => setShowImages_10_1(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Geruchsneutralisationen</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/geruch-1.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_10_1(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_10_2} onClose={() => setShowImages_10_2(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Geruchsneutralisationen</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/geruch-2.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_10_2(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+          </Modal.Body>
+          <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowModal10(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+        </Modal.Content>
+      </Modal>
+      {/* IMAGE --------->>>>    1 */}
+    </Center>
             </Box>
             </View>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <View style={styles.box}>
+        <Box style={styles.inner} bg={{
+            linearGradient: {
+              colors: ['red.500', 'blue.500'],
+              start: [0.1],
+              end: [1, 0],
+            }
+          }} p="12" _text={{
+            fontSize: 'md',
+            fontWeight: 'bold',
+            color: 'warmGray.50',
+            textAlign: 'center'
+          }}>
+
+          <Text style={{width:150,textAlign:"center",color:"white",fontWeight:"bold",fontSize:20}}>Schadstoffsanierung und Asbestsanierung</Text>
+              <Center>
+      <Button style={{width:150,backgroundColor:"rgba(255,0,0,0.0)"}} onPress={() => setShowModal11(true)}>
+        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Weitere Infos</Text>
+        </Button>
+      <Modal isOpen={showModal11} onClose={() => setShowModal11(false)}>
+        <Modal.Content maxWidth="400px">
+          <Modal.CloseButton />
+          <Modal.Header>Schadstoffsanierung und Asbestsanierung</Modal.Header>
+          <Modal.Body>
+            <Text>
+ <Text style={{fontWeight:"bold"}}></Text>Asbest ist ein natürliches Mineral, was jahrelang als ein erstklassiges Brandschutzprodukt galt. Seit 1993 besteht in Deutschland ein grundsätzliches Asbesteinbauverbot und seit 2005 auch flächendeckend in der EU. Die TRGS 519 schreibt zahlreiche Verhaltensregeln vor, die bei der Demontage und Entsorgung strikt eingehalten werden müssen. Genau für solche Fälle gibt es speziell geschultes Personal in unserem Hause, die auch die Zertifizierung von TRGS 519 besitzen. Für die fachgerechte Entsorgung arbeiten wir partnerschaftlich mit anderen Spezialunternehmen zusammen.</Text>
+{/* IMAGE --------->>>>    1 */}
+<Text style={{textAlign:"center",fontWeight:"bold",fontSize:22}}>{"\n"}~{"\n"}Galerie</Text>
+<Text>{"\n"}{"\n"}*Note : Touch the photos to zoom in.</Text>
+<Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_11_1(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/akten-1.png')}
+          resizeMode='contain'
+        />
+        </Button>
+
+      <Modal isOpen={showImages_11_1} onClose={() => setShowImages_11_1(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Schadstoffsanierung und Asbestsanierung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/akten-1.png')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_11_1(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+          </Modal.Body>
+          <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowModal11(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+        </Modal.Content>
+      </Modal>
+      {/* IMAGE --------->>>>    1 */}
+    </Center>
+            </Box>
+            </View>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <View style={styles.box}>
+        <Box style={styles.inner} bg={{
+            linearGradient: {
+              colors: ['red.500', 'blue.500'],
+              start: [0.1],
+              end: [1, 0],
+            }
+          }} p="12" _text={{
+            fontSize: 'md',
+            fontWeight: 'bold',
+            color: 'warmGray.50',
+            textAlign: 'center'
+          }}>
+
+          <Text style={{width:150,textAlign:"center",color:"white",fontWeight:"bold",fontSize:20,paddingLeft:10,paddingRight:10}}>Neubautrocknung</Text>
+              <Center>
+      <Button style={{width:150,backgroundColor:"rgba(255,0,0,0.0)"}} onPress={() => setShowModal12(true)}>
+        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Weitere Infos</Text>
+        </Button>
+      <Modal isOpen={showModal12} onClose={() => setShowModal12(false)}>
+        <Modal.Content maxWidth="400px">
+          <Modal.CloseButton />
+          <Modal.Header >Neubautrocknung</Modal.Header>
+          <Modal.Body>
+            <Text>
+ <Text style={{fontWeight:"bold"}}>In der Bauphase befinden sich bereits gute Gründe für eine technische Trocknung. Durch die Trocknung von Baustoffen werden Fertigstellungstermine eingehalten und die Bauzeiten verkürzt. Dadurch erlangen wir Restfeuchte bei der Fertigstellung/Einzug, welches zu weniger Heizung und Lüftung führt. Am Resultat können wir weniger Folgeschäden an Boden- und Wandbelegen beobachten.</Text></Text>
+{/* IMAGE --------->>>>    1 */}
+<Text style={{textAlign:"center",fontWeight:"bold",fontSize:22}}>{"\n"}~{"\n"}Galerie</Text>
+<Text>{"\n"}{"\n"}*Note : Touch the photos to zoom in.</Text>
+<Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_12_1(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/neu-1.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_12_2(true)}>
+<Image
+          size={150}
+          alt="foto1"
+          source={require('../assets/neu-2.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_12_3(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/neu-3.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_12_4(true)}>
+<Image
+          size={150}
+          alt="foto1"
+          source={require('../assets/neu-4.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_12_5(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/neu-5.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_12_6(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/neu-6.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_12_7(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/neu-7.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_12_8(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/neu-8.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+<Modal isOpen={showImages_12_1} onClose={() => setShowImages_12_1(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Neubautrocknung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/neu-1.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_12_1(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_12_2} onClose={() => setShowImages_12_2(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Neubautrocknung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/neu-2.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_12_2(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+
+      </Modal.Body>
+          <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowModal12(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+        </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_12_3} onClose={() => setShowImages_12_3(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Neubautrocknung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/neu-3.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_12_3(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+
+      <Modal isOpen={showImages_12_4} onClose={() => setShowImages_12_4(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Neubautrocknung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/neu-4.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_12_4(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+
+      <Modal isOpen={showImages_12_5} onClose={() => setShowImages_12_5(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Neubautrocknung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/neu-5.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_12_5(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+
+      <Modal isOpen={showImages_12_6} onClose={() => setShowImages_12_6(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Neubautrocknung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/neu-6.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_12_6(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_12_7} onClose={() => setShowImages_12_7(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Neubautrocknung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/neu-7.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_12_7(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_12_8} onClose={() => setShowImages_12_8(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Neubautrocknung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/neu-8.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_12_8(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+      {/* IMAGE --------->>>>    1 */}
+     </Center>
+            </Box>
+            </View>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <View style={styles.box}>
+        <Box style={styles.inner} bg={{
+            linearGradient: {
+              colors: ['red.500', 'blue.500'],
+              start: [0.1],
+              end: [1, 0],
+            }
+          }} p="12" _text={{
+            fontSize: 'md',
+            fontWeight: 'bold',
+            color: 'warmGray.50',
+            textAlign: 'center'
+          }}>
+
+          <Text style={{width:150,textAlign:"center",color:"white",fontWeight:"bold",fontSize:20,paddingLeft:10,paddingRight:10}}>Wasserschadensanierung</Text>
+              <Center>
+      <Button style={{width:150,backgroundColor:"rgba(255,0,0,0.0)"}} onPress={() => setShowModal13(true)}>
+        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Weitere Infos</Text>
+        </Button>
+      <Modal isOpen={showModal13} onClose={() => setShowModal13(false)}>
+        <Modal.Content maxWidth="400px">
+          <Modal.CloseButton />
+          <Modal.Header >Wasserschadensanierung</Modal.Header>
+          <Modal.Body>
+            <Text>
+ <Text style={{fontWeight:"bold"}}>Bleiben Wasserschäden unbehandelt, ist das Risiko für Folgeschäden enorm hoch. Deswegen sind schnelle Sofortmaßnahmen bei Wasserschäden unumgänglich. Im Rahmen der darauffolgenden Sicherungsmaßnahmen werden Gebäude- und Hausratschäden dokumentiert und bei Bedarf der Hausrat fachgerecht ausgelagert. Unsere Fachkräfte führen Demontagearbeiten, Raum- und Wandtrocknungen, Geruchsneutralisationen, Schachttrocknungen, Estrichtrocknungen, Flachdachtrocknungen, Neubautrocknungen oder Trocknungen von Holzbalkendecken durch. Mit modernen Messtechniken wird ein Sanierungskonzept aufgestellt, mit dessen Hilfe ein nachhaltiges Schadensmanagement möglich ist.
+
+Über Ihren persönlichen Projektleiter sowie Online haben Sie die Möglichkeit, den Status des Projekts zu erfahren und Ihre Wünsche mit einfließen zu lassen. Dabei haben Sie Zugriff auf hochauflösende Drohnenaufnahmen und 360° Bilder.</Text></Text>
+{/* IMAGE --------->>>>    1 */}
+<Text style={{textAlign:"center",fontWeight:"bold",fontSize:22}}>{"\n"}~{"\n"}Galerie</Text>
+<Text>{"\n"}{"\n"}*Note : Touch the photos to zoom in.</Text>
+<Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_13_1(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/wasser-1.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_13_2(true)}>
+<Image
+          size={150}
+          alt="foto1"
+          source={require('../assets/wasser-2.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_13_3(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/wasser-3.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_13_4(true)}>
+<Image
+          size={150}
+          alt="foto1"
+          source={require('../assets/wasser-4.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_13_5(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/wasser-5.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_13_6(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/wasser-6.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_13_7(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/wasser-7.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_13_8(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/wasser-8.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_13_9(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/wasser-9.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_13_10(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/wasser-10.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_13_11(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/wasser-11.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_13_12(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/wasser-12.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_13_13(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/wasser-13.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_13_14(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/wasser-14.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_13_15(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/wasser-15.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+        <Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_13_16(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/wasser-16.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+<Modal isOpen={showImages_13_1} onClose={() => setShowImages_13_1(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Wasserschadensanierung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/wasser-1.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_13_1(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_13_2} onClose={() => setShowImages_13_2(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Wasserschadensanierung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/wasser-2.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_13_2(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+
+      </Modal.Body>
+          <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowModal13(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+        </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_13_3} onClose={() => setShowImages_13_3(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Wasserschadensanierung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/wasser-3.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_13_3(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+
+      <Modal isOpen={showImages_13_4} onClose={() => setShowImages_13_4(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Wasserschadensanierung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/wasser-4.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_13_4(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+
+      <Modal isOpen={showImages_13_5} onClose={() => setShowImages_13_5(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Wasserschadensanierung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/wasser-5.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_13_5(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+
+      <Modal isOpen={showImages_13_6} onClose={() => setShowImages_13_6(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Wasserschadensanierung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/wasser-6.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_13_6(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_13_7} onClose={() => setShowImages_13_7(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Wasserschadensanierung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/wasser-7.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_13_7(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_13_8} onClose={() => setShowImages_13_8(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Wasserschadensanierung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/wasser-8.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_13_8(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_13_9} onClose={() => setShowImages_13_9(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Wasserschadensanierung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/wasser-9.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_13_9(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_13_10} onClose={() => setShowImages_13_10(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Wasserschadensanierung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/wasser-10.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_13_10(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+     <Modal isOpen={showImages_13_11} onClose={() => setShowImages_13_11(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Wasserschadensanierung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/wasser-11.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_13_11(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_13_12} onClose={() => setShowImages_13_12(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Wasserschadensanierung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/wasser-12.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_13_12(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_13_13} onClose={() => setShowImages_13_13(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Wasserschadensanierung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/wasser-13.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_13_13(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_13_14} onClose={() => setShowImages_13_14(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Wasserschadensanierung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/wasser-14.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_13_14(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_13_15} onClose={() => setShowImages_13_15(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Wasserschadensanierung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/wasser-15.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_13_15(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+      <Modal isOpen={showImages_13_16} onClose={() => setShowImages_13_16(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Wasserschadensanierung</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/wasser-16.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_13_16(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+      {/* IMAGE --------->>>>    1 */}
+     </Center>
+            </Box>
+            </View>
+
+
+
+
+
+
+            <View style={styles.box}>
+        <Box style={styles.inner} bg={{
+            linearGradient: {
+              colors: ['red.500', 'blue.500'],
+              start: [0.1],
+              end: [1, 0],
+            }
+          }} p="12" _text={{
+            fontSize: 'md',
+            fontWeight: 'bold',
+            color: 'warmGray.50',
+            textAlign: 'center'
+          }}>
+
+          <Text style={{width:150,textAlign:"center",color:"white",fontWeight:"bold",fontSize:20,paddingLeft:10,paddingRight:10}}>Entkernungsarbeiten</Text>
+              <Center>
+      <Button style={{width:150,backgroundColor:"rgba(255,0,0,0.0)"}} onPress={() => setShowModal14(true)}>
+        <Text style={{textAlign:"center",color:"white",fontWeight:"bold",fontSize:13,borderStyle:"solid",borderWidth:1,borderColor:"white",borderRadius:10,padding:5}}>Weitere Infos</Text>
+        </Button>
+      <Modal isOpen={showModal14} onClose={() => setShowModal14(false)}>
+        <Modal.Content maxWidth="400px">
+          <Modal.CloseButton />
+          <Modal.Header>Entkernungsarbeiten</Modal.Header>
+          <Modal.Body>
+            <Text>
+ <Text style={{fontWeight:"bold"}}></Text></Text>
+{/* IMAGE --------->>>>    1 */}
+<Text style={{textAlign:"center",fontWeight:"bold",fontSize:22}}>{"\n"}~{"\n"}Galerie</Text>
+<Text>{"\n"}{"\n"}*Note : Touch the photos to zoom in.</Text>
+<Button style={{width:220,backgroundColor:"rgba(255,0,0,0.0)",justifyContent:"center",textAlign:"center"}} onPress={() => setShowImages_14_1(true)}>
+
+<Image 
+          
+          size={150}
+          alt="foto1"
+          source={require('../assets/entker-1.jpg')}
+          resizeMode='contain'
+        />
+        </Button>
+
+      <Modal isOpen={showImages_14_1} onClose={() => setShowImages_14_1(false)}>
+        <Modal.Content maxWidth="650px">
+          <Modal.CloseButton />
+          <Modal.Header>Entkernungsarbeiten</Modal.Header>
+          <Modal.Body>
+
+          <Image  size={250} alt="foto1"
+          source={require('../assets/entker-1.jpg')}
+          resizeMode='cover'
+        />
+              </Modal.Body>
+              <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowImages_14_1(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+              </Modal.Content>
+      </Modal>
+
+          </Modal.Body>
+          <Modal.Footer>
+            <Button.Group space={2}>
+              <Button onPress={() => {
+              setShowModal14(false);
+            }}>
+                OK
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+        </Modal.Content>
+      </Modal>
+      {/* IMAGE --------->>>>    1 */}
+    </Center>
+            </Box>
+            </View>
+
+
+
+
             </View>
         </ScrollView>
       </View>
@@ -1646,7 +3297,7 @@ Profitieren Sie von unseren digitalen Möglichkeiten und der Kompetenz unserer F
     scrollView: {
       backgroundColor: 'white',
       marginHorizontal: 20,
-      marginBottom:71
+      marginBottom:51,
     },
     text: {
       fontSize: 42,
@@ -1657,6 +3308,7 @@ Profitieren Sie von unseren digitalen Möglichkeiten und der Kompetenz unserer F
       padding: 5,
       flexDirection: 'row',
       flexWrap:'wrap',
+      paddingBottom:195
     },
     box: {
       width: '50%',
