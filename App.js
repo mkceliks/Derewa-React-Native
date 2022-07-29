@@ -19,24 +19,26 @@ const App = () => {
       tabBarStyle: {
         backgroundColor: 'white',
         position: 'absolute',
-        left: 15,
-        right: 15,
+        left: 0,
+        right: 0,
         bottom: 0,
         elevation: 0,
-        height:70,
+        height:50,
       },
       tabBarLabelStyle: {
         fontSize: 12,
+        marginBottom:3
        },  
     }} 
   sceneContainerStyle={{ backgroundColor: '#FFFFFF' }}>
       <Tabs.Screen name="HomeStack" component={HomeStack} options={{
       tabBarIcon: (props) => <Ionicons name='home' {...props}/>,
-      headerShown:false
+      headerShown:false,
+      tabBarLabel : "Home",
       }}/>
       <Tabs.Screen name="GetHelpNow" component={HelpStack} options={{tabBarIcon: (props) => <Ionicons name='call' {...props}/>,
       headerShown:false,
-      tabBarLabel : "Get Help Now",
+      tabBarLabel : "Über uns",
     }}/>
 
       <Tabs.Screen name="RecoveryStack" component={RecoveryStack} options={{tabBarIcon: (props) => <Ionicons name='information-circle' {...props}/>,
@@ -46,11 +48,11 @@ const App = () => {
       <Tabs.Screen name="ProfileStack" component={ProfileStack} options={{
         headerShown:false,
         tabBarIcon: (props) => <Ionicons name='cog' {...props}/>,
-        tabBarLabel: "Services"
+        tabBarLabel: "Leistungen"
       }}/>
       <Tabs.Screen name="Locations" component={LocationStack} options={{tabBarIcon: (props) => <Ionicons name='location' {...props}/>,
       headerShown:false,
-      tabBarLabel: "Locations"
+      tabBarLabel: "Kontakt"
     }}/>
     </Tabs.Navigator>
          </NavigationContainer>
