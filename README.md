@@ -31,12 +31,21 @@ Then install the necessery node_modules and
 # 26.07.2022 ( Derewa App v0.3 )
 
 - Some fixes about naming of Location.
-- Images added
+- Images added.
 - 2 Box added and updated in the services screen.
 
 
 # 28.07.2022 ( Derewa App v0.4 )
 
-- brand, schimmel and hausratschaden screens added to the profileScreen
+- brand, schimmel and hausratschaden screens added to the profileScreen.
 - images of brand, schimmel and hausratschaden categories added.
-- 3 box model created
+- 3 box model created.
+
+
+# 29.07.2022 ( Derewa App v0.5 )
+
+- react-native-youtube-iframe module installed and added to the home screen.
+- home screen updated with 2 videos and texts.
+- profile screen done with boxes of services.
+- bottom navigation bar fixed.( now it is full width and texts of screens changed )
+- services screen's images added.
