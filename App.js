@@ -36,14 +36,14 @@ const App = () => {
       headerShown:false,
       tabBarLabel : "Home",
       }}/>
-      <Tabs.Screen name="GetHelpNow" component={HelpStack} options={{tabBarIcon: (props) => <Ionicons name='call' {...props}/>,
+      <Tabs.Screen name="GetHelpNow" component={HelpStack} options={{tabBarIcon: (props) => <Ionicons name='information-circle' {...props}/>,
       headerShown:false,
       tabBarLabel : "Über uns",
     }}/>
 
-      <Tabs.Screen name="RecoveryStack" component={RecoveryStack} options={{tabBarIcon: (props) => <Ionicons name='information-circle' {...props}/>,
+      <Tabs.Screen name="RecoveryStack" component={RecoveryStack} options={{tabBarIcon: (props) => <Ionicons name='receipt' {...props}/>,
       headerShown:false,
-      tabBarLabel: "Recovery Tips"
+      tabBarLabel: "Zertifikate"
     }}/>
       <Tabs.Screen name="ProfileStack" component={ProfileStack} options={{
         headerShown:false,
