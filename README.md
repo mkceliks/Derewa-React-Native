@@ -49,3 +49,12 @@ Then install the necessery node_modules and
 - profile screen done with boxes of services.
 - bottom navigation bar fixed.( now it is full width and texts of screens changed )
 - services screen's images added.
+
+# 30.07.2022 ( Derewa App v0.6 )
+
+- RecoveryStack updated with Zertifikate.
+- Über uns and Zertifikate screens images added.
+- GetHelpNow screen updated with Über uns.
+- Zertifikates added.
+
+
