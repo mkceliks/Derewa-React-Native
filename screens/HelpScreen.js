@@ -12,7 +12,7 @@ const GetHelpNow = () => {
 
     </Text><>
 
-    <Text style={{ fontWeight: "bold", fontSize: 15, marginTop: 10,marginRight:10,marginLeft:10}}>
+    <Text style={{  fontSize: 15, marginTop: 10,marginRight:10,marginLeft:10}}>
 
     Hervorragend auf verschiedene Bedürfnisse jedes einzelnen Schadens abgestimmt, liegt der Fokus auf Versicherungen, Versicherungsnehmer und Hausverwaltungen. Ein einheitliches System und transparente Schadenabwicklungen mit digitalen Möglichkeiten sind Basis der Unternehmensstrategie.
 
@@ -28,7 +28,7 @@ Wir bieten Ihnen ein umfangreiches und zuverlässiges Schadenmanagement. Unser e
   />
   </View>
 
-  <Text style={{ fontWeight: "bold", fontSize: 15, marginTop: 10,marginRight:10,marginLeft:10}}>
+  <Text style={{  fontSize: 15, marginTop: 10,marginRight:10,marginLeft:10}}>
 
 
   Als zukunftsorientiertes Unternehmen legen wir größten Wert auf Nachhaltigkeit. Umweltschutz ist für uns kein Ziel mehr, sondern längst eine Selbstverständlichkeit. Unser Equipment ist „Made in Germany“ und verspricht höchste Qualität. Wir arbeiten nach den aktuellsten gesetzlichen Richtlinien für die Brand- und Wasserschadensanierung. Deshalb arbeiten wir nicht nur mit regionalen Partnern eng zusammen, sondern binden auch Sie aktiv in den Prozess mit ein.
@@ -46,7 +46,7 @@ Wir legen großen Wert auf die Kommunikation mit Partnern und Kunden. Aus diesem
   />
   </View>
 
-  <Text style={{ fontWeight: "bold", fontSize: 15, marginTop: 10,marginBottom:75,marginRight:10,marginLeft:10}}>
+  <Text style={{  fontSize: 15, marginTop: 10,marginBottom:75,marginRight:10,marginLeft:10}}>
 
 
   Nach Abschluss der Baustelle haben Sie die Möglichkeit, unsere Handwerker und Projektleiter mittels Bewertungsschema auf der Abnahmeerklärung und Webseite Online zu bewerten. Das hilft uns, wichtige Schlüsse zu ziehen und uns weiterzuentwickeln.

@@ -33,7 +33,7 @@ const Home = () => {
 
     </Text>
 
-    <Text style={{ fontWeight: "bold", fontSize: 15, marginTop: 10,marginLeft:7}}>
+    <Text style={{  fontSize: 15, marginTop: 10,marginLeft:7}}>
 
     Hervorragend auf verschiedene Bedürfnisse jedes einzelnen Schadens abgestimmt, liegt der Fokus auf Versicherungen, Versicherungsnehmer und Hausverwaltungen. Ein einheitliches System und transparente Schadenabwicklungen mit digitalen Möglichkeiten sind Basis der Unternehmensstrategie.
 
