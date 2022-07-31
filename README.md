@@ -57,4 +57,8 @@ Then install the necessery node_modules and
 - GetHelpNow screen updated with Über uns.
 - Zertifikates added.
 
+# 31.07.2022 ( Derewa App v0.7 )
+
+- Font-Weights reduced
+
 
